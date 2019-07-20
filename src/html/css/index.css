@@ -1,15 +1,15 @@
 /*header*/
 #header{
 	width: 100%;
-	background: #001e3a;
+	background: #eeeeee;
 }
 .header{
 	width: 1200px;
 	margin: 0 auto;
-	padding: 18px 0;
+	padding: 5px 0;
 }
 .logo{
-	width: 319px;
+	width: 265px;
 	height: 62px;
 	float: left;
 }
@@ -17,13 +17,13 @@
 	height: 100%;
 }
 .nav{
-	float: right;
-	width: 720px;
-	margin-top: 20px;
+	float: left;
+	width: 750px;
+	margin-top: 15px;
 }
 .nav ul li{
     float: left;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     height: 30px;
     line-height: 30px;
@@ -31,10 +31,10 @@
 }
 .nav ul li a{
 	color: #14b9d7;
-	padding: 0 22px;
+	padding: 0 15px;
 }
 .nav ul  .a {
-	color: #fffffd;
+	color: orange;
 }
 /*header end*/
 /*slide*/
@@ -42,7 +42,7 @@
 
 }
 .slide_top{
-	background:url(../images/qlsbj.gif) repeat;
+	background:url(../image/qlsbj.gif) repeat;
 	height:164px; 
 	text-align: center;
 }
@@ -73,13 +73,13 @@
 .op_btns .op_btn{display:block;width:62px;height:62px;cursor:pointer;overflow:hidden;position:absolute;margin-top:275px;}
 .op_btns .op_prev{left:-135px}
 .op_btns .op_next{right:-135px}
-.op_btns .op_prev span,.op_btns .op_next span{display:block;width:24px;height:44px;background:url("../images/icons_cb372887.png") no-repeat;margin:8px 0 0 17px;cursor:pointer}
+.op_btns .op_prev span,.op_btns .op_next span{display:block;width:24px;height:44px;background:url("../image/icons_cb372887.png") no-repeat;margin:8px 0 0 17px;cursor:pointer}
 .op_btns .op_prev span{background-position:0 0;}
 .op_btns .op_next span{background-position:-77px 0;margin-left:20px;}
 /*slide end*/
 /*content*/
 #content{
-	background: #f4f4f4;
+	background: #eeeeee;
 }
 .content{
 	width: 1200px;
@@ -87,11 +87,11 @@
 }
 /*index 关于嘉特*/
 .index_about{
-	padding-top: 53px;
+	padding-top: 5px;
 }
 .index_left{
 	float: left;
-	width: 795px;
+	width: 780px;
 	overflow: hidden;
 	position: relative;
 	height: 645px;
@@ -182,7 +182,7 @@
     margin: 30px 0;
 }
 .index_right_ul ul li{
-	background: url(../images/li.gif) no-repeat 0px 6px;
+	background: url(../image/li.gif) no-repeat 0px 6px;
 	padding-left: 15px;
 	font-weight: bold;
 	margin-top: 5px;
@@ -220,14 +220,14 @@
 	margin: 0 20px;
 
 }
-/*.index_projecte2 .index_left_h3 h3{
-	/*background:rgba(30, 132, 198, 0.65) none repeat scroll 0 0 !important;实现FF背景透明，文字不透明
-    filter:Alpha(opacity=80); background:#1e84c6;实现IE背景透明*/
+.index_projecte2 .index_left_h3 h3{
+	background:rgba(30, 132, 198, 0.65) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+    filter:Alpha(opacity=80); background:#1e84c6;/*实现IE背景透明*/
 }
 .index_projecte3 .index_left_h3 h3{
-	/*	background:rgba(63, 129, 148, 0.65) none repeat scroll 0 0 !important;实现FF背景透明，文字不透明
-    filter:Alpha(opacity=80); background:#3f8194;实现IE背景透明*/
-}*/
+	background:rgba(63, 129, 148, 0.65) none repeat scroll 0 0 !important;/*实现FF背景透明，文字不透明*/
+    filter:Alpha(opacity=80); background:#3f8194;/*实现IE背景透明*/
+}
 /*index 项目介绍 end*/
 /*index 课程介绍*/
 .content2{
@@ -238,9 +238,10 @@
 .index_class h1{
 	text-align: center;
 	font-size: 53px;
-	color: #14b9d6;
+	color: white;
 	height: 147px;
 	line-height: 147px;
+	background-color: orange;
 }
 
 /*课程介绍 轮播*/
@@ -252,7 +253,7 @@
 }
 .mr_frbox {
     height: 407px;
-    padding: 24px 0px 0px;
+    padding: 5px 0px 0px;
 }
 .mr_frBtnL {
     cursor: pointer;
@@ -291,8 +292,8 @@
     width: 300px;
     position: absolute;
     top: 0;
-    background:rgba(78, 164, 181, 0.65) none repeat scroll 0 0 !important;实现FF背景透明，文字不透明
-    filter:Alpha(opacity=80); background:#4ea4b5;/*实现IE背景透明*/
+    /*background:rgba(78, 164, 181, 0.65) none repeat scroll 0 0 !important;实现FF背景透明，文字不透明*/
+    /*filter:Alpha(opacity=80); background:#4ea4b5;!*实现IE背景透明*!*/
     /*height: 389px;*/
     left: 0;
     right: 0;
@@ -309,13 +310,14 @@
     color: #fff;
 }
 .mr_zhe_p{
-    margin-bottom: 60px;
+    margin-bottom: 0px;
+	margin-top: 150px;
 }
 .mr_zhe_p h3{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    color: #fff;
+    color: #0a0a0a;
     line-height: 30px;
 
 }
@@ -349,11 +351,11 @@
 /*index 课程介绍 end*/
 /*index 师资团队*/
 .index_teacher h1{
-	background:#11acc8;
+	background:green;
 	color: #fff;
 }
 /*师资团队 轮播*/
-.icon-arrow-a-left, .icon-arrow-a-right { background: url(../images/icons_cb372887.png) no-repeat; }
+.icon-arrow-a-left, .icon-arrow-a-right { background: url(../image/icons_cb372887.png) no-repeat; }
 .icon-arrow-a-left { background-position:-4px -121px; height: 50px; width: 50px;left: -19px; }
 .icon-arrow-a-right { background-position: -59px -121px; height: 50px; width: 50px; }
 .helper{
@@ -390,11 +392,11 @@
 }
 .index_form_right{
 	float: right;
-	width: 793px;
+	width: 387px;
 	height: 350px;
 }
 .index_form_li ul li{
-	width: 387px;
+	width: 350px;
 	height: 52px;
 	line-height: 52px;
 	margin-top: 20px;
@@ -413,8 +415,8 @@
 	margin-top: 0;
 }
 .index_form_right .index_form_li ul li{
-	width: 793px;
-	height: 123px;
+	width: 350px;
+	height: 52px;
 	background: #fff;
 	line-height: 123px;
 	overflow: hidden;
@@ -436,7 +438,7 @@
 	 overflow: hidden;
 }
 #index_submit{
-	background: #11acc8;
+	background: red;
 	color: #fff;
 	font-size: 19px;
 }
@@ -692,10 +694,10 @@
 }
 
 .page_left{
-	background:#11acc8 url(../images/icons_cb372887.png) no-repeat 0px -201px;
+	background:#11acc8 url(../image/icons_cb372887.png) no-repeat 0px -201px;
 }
 .page_right{
-	background:#11acc8 url(../images/icons_cb372887.png) no-repeat -56px -201px;
+	background:#11acc8 url(../image/icons_cb372887.png) no-repeat -56px -201px;
 }
 .teacher_page .page_one{
 	width: 73px;
@@ -729,24 +731,13 @@
 .registration h3{
 	height: 43px;
 	line-height: 43px;
-  	background: #334b61;
+	background: #334b61;
 	font-size: 18px;
 	color: #11acc8;
 	font-weight: bold;
 	padding-left: 20px;
 	margin-bottom: 25px;
-}
-.registration .index_form_first{
-    height: 343px;
-}
-.registration .index_form_second{
-    height: 343px;
-}
-.registration .index_form_third{
-    height: 343px;
-}
-.registration .index_form_p{
-    margin-top: 280px;
+
 }
 /*我要报名 end*/
 /*新闻中心*/
@@ -828,10 +819,10 @@
 	float: left;
 }
 .news_more .page_left{
-	background:#11acc8 url(../images/icons_cb372887.png) no-repeat -3px -250px; 
+	background:#11acc8 url(../image/icons_cb372887.png) no-repeat -3px -250px;
 }
 .news_more .page_left2{
-	background:#11acc8 url(../images/icons_cb372887.png) no-repeat -3px -307px; 
+	background:#11acc8 url(../image/icons_cb372887.png) no-repeat -3px -307px;
 }
 .news_more .page_li{
 	margin-left: 0;
