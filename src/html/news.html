@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>新闻中心</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript" src="js/jquery-1.11.1.min_044d0927.js"></script>
+</head>
+<body>
+<!-- header -->
+<div id="header">
+  <div class="header clearFloat">
+    <div class="logo">
+      <!--<a href="index.html"><img src="C:\Users\24232\Desktop\七星虫图片\4.LOGO\微信图片_20190707090601.jpg">-->
+      <a href=""><img src="C:\Users\24232\Desktop\七星虫图片\4.LOGO\微信图片_20190707090601.jpg">
+      </a>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html" class="a">首页</a>
+        </li>
+        <li><a href="about.html">关于我们</a>
+        </li>
+        <li><a href="project.html">项目介绍</a>
+        </li>
+        <li><a href="class.html">课程介绍</a>
+        </li>
+        <li><a href="teacher.html">师资力量</a>
+        </li>
+        <li><a href="registration.html">我要报名</a>
+        </li>
+        <li><a href="news.html">新闻资讯</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- header end-->
+<!-- slide -->
+<div id="slide">
+  <div class="slide_top slide_about">
+  </div>
+  <div class="top_slide_wrap about_pic">
+    <ul class="slide_box bxslider">
+      <li>
+        <a href="#"><img src="C:\Users\24232\Desktop\七星虫图片\5.公司介绍\优惠.jpg" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- slide end -->
+<div id="content">
+  <div class="content">
+    <script type="text/javascript">
+      $(function(){
+        $(".news_tab a").each(function(j){
+          var num=j+1;
+          $(this).click(function(){
+            $(".news_tab a").attr("class","");
+            $(this).attr("class","hovera");
+            for(var i=1;i<=2;i++){
+              $("#tab_kc"+i).css("display","none");
+            }
+            $("#tab_kc"+num).css("display","block");
+          });
+        });
+      })
+    </script>
+    <div class="news">
+      <div class="news_tab clearFloat">
+        <ul>
+          <li class="news_tba"><a class="hovera">新闻咨询 News Information</a></li>
+          <li><a >班级新闻 Class New</a></li>
+        </ul>
+      </div>
+      <div class="about" id="tab_kc1">
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="C:\Users\24232\Desktop\1116491336.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1><a href="">2019首届“世界创新杯”青少年人工智能科技探索冬令营在沈阳航空航天大学举行</a><br>
+              </h1>
+              <div class="index_left_p2">
+                <p>为深入贯彻落实《全民科学素质行动计划纲要实施方案（2016—2020年）》精神和教育部等11部委《关于推进中小学生研学旅行的意见》，2019年2月18日—2月23日在沈阳航空航天大学举行了2019首届“世界创新杯”青少年人工智能科技探索冬令营，活动由世界创新（辽宁）教育科技中心主办，沈阳市无人机产业与技术联盟联合辽宁省科技创新与人才培养研究会、沈阳航空航天大学等单位共同承办。“世界创新杯”青少年人工智能科技探索冬令营活动是一项综合多种学科知识和技能的青少年科技活动，营员们通过计算机编程，工程设计，动手制作与技术构建，结合其日常观察、积累，去寻求自己最完美的解决方案，发展自身的创造力。冬令营弘扬科学技术，突显创造与创新，强化团队协作，放手让青少年通过活动，创造性地发现和解决问题。以增强全体营员综合素质，培养综合能力与创新思维为办营宗旨。
+                  前两天主要对AI进行普及，沈阳航空航天大学胡立夫高级工程师带同学们对感受简单的编程，对机器人通识进行了介绍。接着结合沈阳航空航天大学特色，对无人机原理、系统组成等相关知识进行深入的了解，并以无人机为载体，利用前面学习的编程进行实训。最后同学们通过冬令营中所学知识，参加无人机场地障碍竞速赛活动。本届活动还安排了神秘的基因探索之旅和VR技术漫谈与创新设计之旅两项特色活动。来至华大基金的徐俊光博士给同学们做了一场精彩的报告，让同学们初步了解基因；华大基因学院邓娇颖老师带同学们亲手实验，制做了DNA结构模型，还进行DNA的初步萃取实验。让同学们真正近距离感受了DNA。 沈阳创新设计服务中心孙铁刚部长为同学们讲述了虚拟现实的发展历史，以及在各个领域的应用，最后还让同学们亲身感受VR。此外，沈阳航空航天大学也安排了飞机结构实验室、停机坪的参观活动。秦政琪教授、孙滨洋工程师为同学们进行了详细的介绍，让同学们亲近距离接触各式各样的飞机——歼6、歼8等。
+                  不少同学通过这样的特色活动，对基因工程、对VR技术、对航空航天飞行器、对人工智能产生了极大的兴趣，在他们的内心埋下了一颗颗小种子。 冬令营通过集体活动、集中食宿的方式，将人工智能素养与创新能力提升、研究性学习、赛事活动、旅行体验、综合素质能力提升有机融合，为广大青少年科技创新爱好者，提供成长、展示、竞技、合作交流的平台...
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="C:\Users\24232\Desktop\七星虫图片\5.公司介绍\冬令营.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>2019辽宁信息学奥赛冬令营七星虫协开
+              </h1>
+              <div class="index_left_p2">
+                <p>2019辽宁信息学奥赛冬令营七星虫协开,取得圆满成功。信息学也有它相关的竞赛，标准名词是 “全国青少年信息学奥林匹克竞赛（National Olympiad in Informatics）”，简称 NOI。各省、自治区、直辖市及特别行政区会派出代表队参赛。期间，举办同步夏令营和网上同步赛，更多信息学爱好者和高手提供锻炼机会。而NOIP则是全国青少年信息学奥林匹克联赛（National Olympiad in Informatics in Provinces），简称 NOIP，是由中国计算机学会主办的一项面向全国青少年的普及性信息学竞赛。
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="C:\Users\24232\Desktop\七星虫图片\5.公司介绍\报告会.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>青少年人工智能发展报告会
+              </h1>
+              <div class="index_left_p2">
+                <p>2019年1月5日，由中国计算机学会（CCF）主办，CCF YOCSEF 沈阳学术委员会、CCF沈阳分部承办，沈阳七星虫智能科技有限公司协办，在沈阳智享大健康信息科技有限公司报告厅召开。出席报告会人员有：YOCSEF沈阳分论坛主席王军、前任主席冯勇、副主席谢尚飞、学术秘书潘宏、CCF YOCSEF 大连分论坛前学术秘书刘继峰、YOCSEF沈阳AC委员刘兵、赵亮、胡本仁等，沈阳市和平区教育局局长王斌、中共辽宁省委党校公共管理教研部副教授，辽宁省行政管理学会理事、办公室主任孙莹、沈阳智享大健康信息科技有限公司副总经理田野，辽宁工程技术大学软件学院院长 沈学利教授、辽宁轻工职业学院 计算机系主任 焦战，沈阳七星虫智能科技有限公司 靳镕鸿、学生家长等人员70余人参加了此次报告会。
+                </p>
+                  <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="C:\Users\24232\Desktop\七星虫图片\5.公司介绍\公益课.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>辽宁省信息学奥赛公益课程预科班
+              </h1>
+              <div class="index_left_p2">
+                <p>辽宁省信息学奥赛公益课程预科班。辽宁省信息学奥赛公益课程预科班。由七星虫协开，取得圆满成功... ...
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher_page clearFloat">
+          <a href="" class="page_left"></a>
+          <a href="">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="">……</a>
+          <a href="">18</a>
+          <a href="" class="page_right"></a>
+          <a href="" class="page_one page_li">首页</a>
+          <a href="" class="page_one page_input ">尾页</a>
+          <a class="page_one page_ie">
+            <input type="text" value="10" class="orgin_input">
+          </a>
+          <a href="" class="page_one">跳转到</a>
+        </div>
+      </div>
+      <div class="about" id="tab_kc2" style="display:none">
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="images/news.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>2019首届“世界创新杯”青少年人工智能科技探索冬令营在沈阳航空航天大学举行<br>
+              </h1>
+              <div class="index_left_p2">
+                <p>2019年2月18日—2月23日在沈阳航空航天大学举行了2019首届“世界创新杯”青少年人工智能科技探索冬令营，活动由世界创新（辽宁）教育科技中心主办，沈阳市无人机产业与技术联盟联合辽宁省科技创新与人才培养研究会、沈阳航空航天大学等单位共同承办。“世界创新杯”青少年人工智能科技探索冬令营活动是一项综合多种学科知识和技能的青少年科技活动，营员们通过计算机编程，工程设计，动手制作与技术构建，结合其日常观察、积累，去寻求自己最完美的解决方案，发展自身的创造力。冬令营弘扬科学技术，突显创造与创新，强化团队协作，放手让青少年通过活动，创造性地发现和解决问题。以增强全体营员综合素质，培养综合能力与创新思维为办营宗旨。
+                  前两天主要对AI进行普及，沈阳航空航天大学胡立夫高级工程师带同学们对感受简单的编程，对机器人通识进行了介绍。专属的文化语汇。
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="images/news1.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>2019辽宁信息学奥赛冬令营七星虫协开
+              </h1>
+              <div class="index_left_p2">
+                <p>2019辽宁信息学奥赛冬令营七星虫协开，取得圆满成功。信息学也有它相关的竞赛，标准名词是 “全国青少年信息学奥林匹克竞赛（National Olympiad in Informatics）”，简称 NOI。各省、自治区、直辖市及特别行政区会派出代表队参赛。期间，举办同步夏令营和网上同步赛，更多信息学爱好者和高手提供锻炼机会。而NOIP则是全国青少年信息学奥林匹克联赛（National Olympiad in Informatics in Provinces），简称 NOIP，是由中国计算机学会主办的一项面向全国青少年的普及性信息学竞赛。
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="images/news2.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>青少年人工智能发展报告会
+              </h1>
+              <div class="index_left_p2">
+                <p>2019年1月5日，由中国计算机学会（CCF）主办，CCF YOCSEF 沈阳学术委员会、CCF沈阳分部承办，沈阳七星虫智能科技有限公司协办，在沈阳智享大健康信息科技有限公司报告厅召开。出席报告会人员有：YOCSEF沈阳分论坛主席王军、前任主席冯勇、副主席谢尚飞、学术秘书潘宏、CCF YOCSEF 大连分论坛前学术秘书刘继峰、YOCSEF沈阳AC委员刘兵、赵亮、胡本仁等，沈阳市和平区教育局局长王斌、中共辽宁省委党校公共管理教研部副教授，辽宁省行政管理学会理事、办公室主任孙莹、沈阳智享大健康信息科技有限公司副总经理田野，辽宁工程技术大学软件学院院长 沈学利教授、辽宁轻工职业学院 计算机系主任 焦战，沈阳七星虫智能科技有限公司 靳镕鸿、学生家长等人员70余人参加了此次报告会... ...
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about_list clearFloat">
+          <div class="about_left">
+            <a href=""><img src="images/news3.jpg">
+            </a>
+          </div>
+          <div class="about_right">
+            <div class="index_left_p clearFloat">
+              <h1>辽宁省信息学奥赛公益课程预科班
+              </h1>
+              <div class="index_left_p2">
+                <p>辽宁省信息学奥赛公益课程预科班。由七星虫协开，取得圆满成功...
+                </p>
+                <a href="news_ny.html" class="more"><i>READ MORE</i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="teacher_page clearFloat">
+          <a href="" class="page_left"></a>
+          <a href="">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="">……</a>
+          <a href="">18</a>
+          <a href="" class="page_right"></a>
+          <a href="" class="page_one page_li">首页</a>
+          <a href="" class="page_one page_input ">尾页</a>
+          <a class="page_one page_ie">
+            <input type="text" value="10" class="orgin_input">
+          </a>
+          <a href="" class="page_one">跳转到</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content2">
+    <div class="index_about clearFloat">
+      <div class="index_class">
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="index_about clearFloat">
+      <div class="index_form clearFloat">
+        <div class="index_form_left">
+          <form action="">
+            <div class="index_form_li">
+              <ul>
+                <li class="index_form_a">
+                  <input type="text" value="姓名 NAME" class="orgin_input">
+                </li>
+                <li>
+                  <input type="text" value="姓别 SEX" class="orgin_input">
+                </li>
+                <li>
+                  <input type="text" value="地区 AREA" class="orgin_input">
+                </li>
+                <li>
+                  <input type="text" value="联系方式 CONTACT" class="orgin_input">
+                </li>
+                <li>
+                  <input type="text" value="电子邮件 E-MAIL" class="orgin_input">
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+        <div class="index_form_right">
+          <form action="">
+            <div class="index_form_li">
+              <ul>
+                <li class="index_form_a">
+                  <textarea class="orgin_input">教育背景 EDUCATION BACKGROUND</textarea>
+                </li>
+                <li>
+                  <textarea class="orgin_input">资讯内容 CONSULTATION CONTENT</textarea>
+                </li>
+                <li class="index_form_p">
+                  <input type="submit" id="index_submit" value="我要报名 I WANT TO REGISTER">
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+        <script type="text/javascript">
+          $(function() {
+            $('.orgin_input').bind({
+              focus: function() {
+                if (this.value == this.defaultValue) {
+                  this.value = "";
+                }
+              },
+              blur: function() {
+                if (this.value == "") {
+                  this.value = this.defaultValue;
+                }
+              }
+            });
+          })
+        </script>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- footer -->
+<div id="footer">
+  <div class="footer">
+    <div class="footer_h3 clearFloat">
+      <div class="footer_left">
+        <h3><img src="C:\Users\24232\Desktop\七星虫图片\4.LOGO\logo2019-7-7-00.jpg" width="72" height="49">
+          <span>TEL&nbsp;&nbsp;<span class="footer_phone">0312-5658884</span></span>
+
+        </h3>
+
+      </div>
+      <div class="footer_right">
+        <div class="nav">
+          <ul>
+            <li><a href="index.html" class="a">首页</a>
+            </li>
+            <li><a href="about.html">关于我们</a>
+            </li>
+            <li><a href="project.html">项目介绍</a>
+            </li>
+            <li><a href="class.html">课程介绍</a>
+            </li>
+            <li><a href="teacher.html">师资力量</a>
+            </li>
+            <li><a href="registration.html">我要报名</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer_h3 footer_kuai clearFloat">
+      <div class="foote_domestic clearFloat">
+        <h3>国内合作企业<span>Domestic cooperative enterpries</span></h3>
+        <ul>
+          <li><a href="">ACF设计产业集团</a>
+          </li>
+          <li><a href="">钛马赫别墅家装</a>
+          </li>
+          <li><a href="">博洛马</a>
+          </li>
+          <li><a href="">科宝入住家装</a>
+          </li>
+          <li><a href="">DARA</a>
+          </li>
+          <li><a href="">东易日盛</a>
+          </li>
+          <li><a href="">实装装饰</a>
+          </li>
+          <li><a href="">业之峰装饰</a>
+          </li>
+          <li><a href="">高度国际装饰集团</a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="">山川设计</a>
+          </li>
+          <li><a href="">锦道软装公社</a>
+          </li>
+          <li><a href="">圣菲国际空间设计</a>
+          </li>
+          <li><a href="">SNP</a>
+          </li>
+          <li><a href="">汤物臣肯文创意集团</a>
+          </li>
+          <li><a href="">德易家艺术空间</a>
+          </li>
+          <li><a href="">......</a>
+          </li>
+        </ul>
+      </div>
+      <div class="foote_domestic foote_media clearFloat">
+        <h3>国外合作品牌<span>Foreign co-brand</span></h3>
+        <ul>
+          <li><a href="">Altamoda Italian</a>
+          </li>
+          <li><a href="">Asnaghi Interiors</a>
+          </li>
+          <li><a href="">Savio firmino</a>
+          </li>
+          <li><a href="">Ciacci</a>
+          </li>
+          <li><a href="">Imart</a>
+          </li>
+          <li><a href="">Mantellassi1926</a>
+          </li>
+          <li><a href="">Antologia</a>
+          </li>
+          <li><a href="">Poltrona Frau</a>
+          </li>
+          <li><a href="">Francesco Molon</a>
+          </li>
+        </ul>
+        <ul class="footer_width">
+          <li><a href="">Boffi</a>
+          </li>
+          <li><a href="">Rational</a>
+          </li>
+          <li><a href="">Provasi</a>
+          </li>
+          <li><a href="">Ahura</a>
+          </li>
+          <li><a href="">Haro</a>
+          </li>
+          <li><a href="">......</a>
+          </li>
+        </ul>
+      </div>
+      <div class="foote_domestic foote_foeign clearFloat">
+        <h3>合作媒体<span>Media Partners</span></h3>
+        <ul class="foote_foeign_ul">
+          <li><a href="">新浪网</a>
+          </li>
+          <li><a href="">新浪微博</a>
+          </li>
+          <li><a href="">搜狐网</a>
+          </li>
+          <li><a href="">腾讯网</a>
+          </li>
+          <li><a href="">QQ</a>
+          </li>
+          <li><a href="">微信</a>
+          </li>
+          <li><a href="">网易</a>
+          </li>
+          <li><a href="">凤凰网</a>
+          </li>
+          <li><a href="">优酷</a>
+          </li>
+        </ul>
+        <ul class="foote_foeign_ul foote_foeign_ul3">
+          <li><a href="">土豆网</a>
+          </li>
+          <li><a href="">爱奇艺</a>
+          </li>
+          <li><a href="">乐视网</a>
+          </li>
+          <li><a href="">北青网</a>
+          </li>
+          <li><a href="">中国教育</a>
+          </li>
+          <li><a href="">第一视频</a>
+          </li>
+          <li><a href="">人民网</a>
+          </li>
+          <li><a href="">光明网</a>
+          </li>
+          <li><a href="">新华网</a>
+          </li>
+        </ul>
+        <ul class="foote_foeign_ul2 foote_foeign_ul3">
+          <li><a href="">北京广播电台</a>
+          </li>
+          <li><a href="">北京晚报</a>
+          </li>
+          <li><a href="">北京晨报</a>
+          </li>
+          <li><a href="">北京商报</a>
+          </li>
+          <li><a href="">法制晚报</a>
+          </li>
+          <li><a href="">北京青年报</a>
+          </li>
+          <li><a href="">参考消息</a>
+          </li>
+          <li><a href="">京华时报</a>
+          </li>
+          <li><a href="">新京报</a>
+          </li>
+        </ul>
+        <ul class="foote_foeign_ul2 foote_foeign_ul4">
+          <li><a href="">扬子晚报</a>
+          </li>
+          <li><a href="">成都商报</a>
+          </li>
+          <li><a href="">重庆晚报</a>
+          </li>
+          <li><a href="">北京商报</a>
+          </li>
+          <li><a href="">羊城晚报</a>
+          </li>
+          <li><a href="">经济观察报</a>
+          </li>
+          <li><a href="">精品购物指南</a>
+          </li>
+          <li><a href="">......</a>
+          </li>
+        </ul>
+      </div>
+      <div class="foote_domestic foote_media clearFloat">
+        <h3>欢迎关注<span>Welcome attention</span></h3>
+        <a href="" class="foote_welcom"><img src="C:\Users\24232\Desktop\七星虫图片\七星虫公众号.png">
+        </a>
+      </div>
+    </div>
+    <div class="footer_h3 footer_copyright clearFloat">
+      <p>北京奥佳得教育科技有限公司版权所有 | Copyright 2014-2015 All rights reserved | 技术支持：万虎网络 设计支持：弘睿品牌顾问</p>
+    </div>
+  </div>
+</div>
+<!-- footer end-->
+</body>
+</html>
