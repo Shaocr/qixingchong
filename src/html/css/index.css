@@ -729,13 +729,24 @@
 .registration h3{
 	height: 43px;
 	line-height: 43px;
-	background: #334b61;
+  	background: #334b61;
 	font-size: 18px;
 	color: #11acc8;
 	font-weight: bold;
 	padding-left: 20px;
 	margin-bottom: 25px;
-
+}
+.registration .index_form_first{
+    height: 343px;
+}
+.registration .index_form_second{
+    height: 343px;
+}
+.registration .index_form_third{
+    height: 343px;
+}
+.registration .index_form_p{
+    margin-top: 280px;
 }
 /*我要报名 end*/
 /*新闻中心*/
